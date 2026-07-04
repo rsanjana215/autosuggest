@@ -9,7 +9,7 @@ const app = express()
 const PORT = 3002;
 
 // web server : 
-app.use(express.static("frontend"));
+app.use(express.static("frontend/pages"));
 
 app.listen(PORT, function() {
     console.log("sucessfully running at http://localhost:"+PORT);
